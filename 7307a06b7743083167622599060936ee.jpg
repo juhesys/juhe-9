@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>黑帮女老大暴揍4个特种兵，下手狠毒毫不手软，太爽了不忍快进一秒！</title>
+</head>
+<link rel="stylesheet" type="text/css" href="/html/css/share.css">
+<link rel="stylesheet" type="text/css" href="/html/dplayer/DPlayer.min.css">
+<body>
+	<div class="gaog" id="gaog">
+		<div class="gaog-var">
+			
+		</div>
+	</div>
+	<div id="indexview"><div class="bg"><div class="adcontent"></div></div></div>
+	<div id="orderview">
+		<div class="closeview"></div>
+		<div id="ordertitle">本视频总时长00:09:21
+				<br>您需付费<span id="orderprice">0</span> 元观看完整内容
+		</div>
+		<form action="/order/create" method="POST" id="postform">
+			请选择支付方式
+			<p>支付宝<input type="radio" name="pay" value="1" checked="checked"></p>
+			<p>微信<input type="radio" name="pay" value="2"></p>
+			<input type="hidden" name="shareid" value="3HBqTVWXoPbF9Gkw">
+			<input type="submit" name="mypay" value="去支付">
+		</form>
+		<div id="orderstatus"></div>
+	</div>
+	<div class="video" id="mvideo"></div>
+	<div style="display:none" name="playtime" value="00:09:21"></div>
+	<div style="display:none" name="sizeview" value="48.82 MB"></div>
+	<div style="display:none"></div>
+	<script src="/html/js/m3u8-parser.min.js"></script>
+	<script type="text/javascript" src="/html/js/jquery-1.11.2.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/html/dplayer/hls.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/html/dplayer/DPlayer.min.js" charset="utf-8"></script>	
+	<script type="text/javascript" src="/html/ckplayerx/ckplayer.js" charset="utf-8"></script>	
+	<script type="text/javascript" src="/html/js/mplayer.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/html/js/share.js?time=8" charset="utf-8"></script>
+		
+	
+	<script type="text/javascript">
+		var box = "mvideo";
+		var hosts = '';
+		
+			var host = "";
+var playlist = '[{"url":"/20220301/nrZBxdR3/2000kb/hls/index.m3u8"}]';
+var redirecturl = "/";
+playlist = playlist.replace(/\\/g, "/");
+playlist = JSON.parse(playlist);
+	var danmuenable = 0;
+	var magnet = ""	
+	var videoid = "3HBqTVWXoPbF9Gkw";
+	var id = '3HBqTVWXoPbF9Gkw'
+	var l = ''
+	var r = ''
+	var t = '15'
+	var d = ''
+	var u = ''
+	var main = "/20220301/nrZBxdR3/index.m3u8";
+	var playertype = 'dplayer'; // dplayer || ckplayer
+	
+	var mp4 = "/20220301/nrZBxdR3/mp4/nrZBxdR3.mp4";
+	
+	var xml = "/20220301/nrZBxdR3/index.xml?sign=1cbbcbf717a606c47840d6cdf35a48676df06f349800d906b546acd74aaa29e669cdcf2a6ea2a134cf5cf955955ff2b38c0779bc12f2e9c702e1181a13b4261e";		
+	
+	var pic = "/20220301/nrZBxdR3/1.jpg";
+		
+
+$(function () {
+	var t = BrowserType();		
+	if (t && t.indexOf("IE") >= 0  )
+		playertype = "ckplayer"
+	var order = 0;
+		
+	init(order);
+})
+;
+		
+	</script>
+</body>
+</html>
